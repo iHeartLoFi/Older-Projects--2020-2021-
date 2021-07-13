@@ -1,0 +1,27 @@
+#We are trying to develop a program that will determine the likelyhood of a passenger being intoxicated based on the time of day, pickup location, day of week, etc.
+
+#----------------------------------
+
+#import or create a function which intergrates GPS to determined location. Or a function that will allow the program to utilize Uber's internal GPS.
+
+#----------------------------------
+
+# create function to define intoxication
+
+#intox = intoxication/intoxicated
+def intox():
+    return
+
+# create a var to establish the legal limit of location
+
+#legal_bal = Legal Blood Alochol Limit
+legal_bal = float(0.08)
+
+current_bal = float(0.08)
+
+if current_bal > legal_bal:
+    intox = True
+    print("customer may be intoxicated")
+else:
+    intox = False
+    print("customer is not intoxicated")
