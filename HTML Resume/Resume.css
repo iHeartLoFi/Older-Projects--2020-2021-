@@ -1,0 +1,388 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('Pics/uewHyf.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(31, 95, 212);
+    display: flex;
+    flex-direction: column;
+    align-items: auto;
+    mask-image: radial-gradient( white 0%, white 30%, transparent 80%, transparent);
+}
+
+
+/*Animation*/
+
+
+/*Sidebar*/
+
+.header__left img {
+    object-fit: contain;
+    height: 70px;
+    margin-right: 10px;
+}
+
+.header {
+    width: 100%;
+    position: sticky;
+    display: flex;
+    top: 0;
+    z-index: 999;
+    justify-content: left;
+    justify-content: space-between;
+    /* 
+    ^Figure out how to properly space header content so that the search field is directly above Sidebar w/o pulling entire header left 
+    */
+    border-bottom: 0.1px solid indigo;
+    padding: 10px;
+    background-image: url('Pics/45 Desktop Wallpaper HD Backgrounds Available Here.jpg');
+    background-size: cover;
+    background-color: darkblue;
+}
+
+.header__left {
+    display: flex;
+}
+
+.header__right {
+    display: flex;
+}
+
+.header__search {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    height: 22px;
+    font-size: 30px;
+    font-family: Roboto, sans-serif;
+    color: rgba (0, 0, 0, 0.9);
+    letter-spacing: 2px;
+    text-shadow: 0px 0px 9px #0097e8, 0px 0px 15px lime, 0px 0px 5px #f50abe;
+    animation: glow 10s infinite;
+}
+
+.header__search input {
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.headerOption img {
+    object-fit: contain;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.headerOption:hover {
+    color: black;
+}
+
+.headerOption h3 {
+    font-size: 12px;
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.headerOption icon {
+    margin-right: 20px;
+    height: 20px;
+    width: 20px;
+}
+
+.headerOption {
+    color: lime;
+}
+
+
+/*Main Body*/
+
+.body__main {
+    display: flex;
+    margin-top: 35px;
+    max-width: 1200px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+/*Sidebar*/
+
+.sidebar {
+    position: sticky;
+    top: 80px;
+    flex: 0.2;
+    border-radius: 10px;
+    text-align: center;
+    height: fit-content;
+}
+
+.sidebar__top img {
+    margin-bottom: -20px;
+    width: 100%;
+    height: 60px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+
+.sidebar__top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid palevioletred;
+    border-bottom: 1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: mediumaquamarine;
+    padding-bottom: 10px;
+}
+
+.sidebar__topAvatar {
+    font-size: 40px;
+}
+
+.sidebar__stats {
+    background-image: url('Pics/OIP.srpY6RBG8K54Sl4WBymfoAHaFj.jpeg');
+    background-size: cover;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid lightgray;
+    background-color: mediumaquamarine;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.sidebar__stats h3 {
+    color: cyan;
+}
+
+.sidebar__stat {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar__stat p {
+    color: aquamarine;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.sidebar__top h4 {
+    color: gray;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.sidebar__top h2 {
+    font-size: 18px;
+}
+
+.sidebar__bottom h3 {
+    color: mediumslateblue;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: roboto;
+}
+
+.sidebar__bottom {
+    background-image: url('Pics/C1Hdbo.jpg');
+    background-size: cover;
+    text-align: left;
+    padding-top: 10px;
+    border: 1px solid palevioletred;
+    background-color: mediumaquamarine;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.sidebar__recentItem {
+    display: flex;
+    font-size: 15px;
+    color: purple;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.sidebar__recentItem:hover {
+    background-color: mediumseagreen;
+    border-radius: 10px;
+    cursor: pointer;
+    color: black;
+}
+
+.sidebr__hash {
+    margin: 0 10px;
+}
+
+.sidebar__bottom p {
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+
+/* Feed */
+
+.feed {
+    flex: 0.6;
+    margin: 0 20px;
+}
+
+.feed__inputContainer {
+    background-image: url('Pics/45 Desktop Wallpaper HD Backgrounds Available Here.jpg');
+    border: 1px solid palevioletred;
+    background-color: mediumturquoise;
+    padding: 10px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.feed__input {
+    border: 1px solid lightgray;
+    border-radius: 30px;
+    display: flex;
+    padding: 10px;
+    color: gray;
+    padding-left: 15px;
+}
+
+.feed__input form {
+    display: flex;
+    width: 100%;
+}
+
+.feed__input form input {
+    border: none;
+    flex: 1;
+    margin-left: 10px;
+    outline-width: 0;
+    font-weight: 600;
+}
+
+.feed__input:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.feed__input form input:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+
+.feed__inputOptions {
+    display: flex;
+    justify-content: space-evenly;
+    color: cyan;
+}
+
+.inputOption {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    color: gray;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.inputOption:hover {
+    background-color: whitesmoke;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.inputOption h4 {
+    margin-left: 5px;
+}
+
+
+/*Post Section*/
+
+.post {
+    background-image: url('Pics/45 Desktop Wallpaper HD Backgrounds Available Here.jpg');
+    background-color: aqua;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.post__header {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.overhead {
+    color: red;
+}
+
+.post__info {
+    margin-left: 10px;
+}
+
+.post__info p {
+    font-size: 12px;
+    color: lime;
+}
+
+.post__body {
+    color: cyan;
+}
+
+.post__info h2 {
+    font-size: 15px;
+    color: lightblue;
+}
+
+.post__info h4 {
+    color: hotpink;
+}
+
+
+/*Widgets*/
+
+.widgets {
+    background-image: url('Pics/jzGmCp.jpg');
+    background-size: cover;
+    position: sticky;
+    top: 80px;
+    flex: 0.2;
+    background-color: darksalmon;
+    border-radius: 10px;
+    border: 1px solid palevioletred;
+    height: fit-content;
+    padding-bottom: 10px;
+}
+
+.widgets__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    color: red;
+}
+
+.widgets__header h2 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.widgetsArticle {
+    display: contents;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.widgetsArticle:hover {
+    background-color: whitesmoke;
+}
+
+.widgets__articleRight p {
+    color: lime;
+}
